@@ -12,3 +12,5 @@ COPY . .
 EXPOSE 5173
 
 CMD ["npm", "run", "dev"]
+
+## Docker run command -> docker run -p 5173:5173 react-vite
